@@ -17,6 +17,7 @@ def check(l,guess,word,tries):
         print(l)
         return 0,l
 
+
 def display(tries):
     if tries==1:
         print('___________')
@@ -64,6 +65,7 @@ def display(tries):
         return 1
     return 0
 
+
 def main():
     tries=0
     tr=0
@@ -92,6 +94,7 @@ def main():
             print('RIGHT GUESS,PLAYER 2 WINS!!')
             return
     print('PLAYER 1 WINS!!')
+
 
 main()
 while True:
